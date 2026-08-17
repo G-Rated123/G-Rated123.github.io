@@ -1,0 +1,23 @@
+body {
+    background: #FBF4EF;
+    font-family:cursive;
+    margin: 100;
+}
+
+#title {
+    text-align: center;
+    color: #6C4D52;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 2px;
+    margin: 10px;
+    padding-inline: 10px;
+}
+
+.top-buttons a {
+    text-decoration: none;
+}
