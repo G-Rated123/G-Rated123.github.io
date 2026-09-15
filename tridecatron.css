@@ -1,23 +1,77 @@
+/*body styles*/
 body {
     background: #FBF4EF;
     font-family:cursive;
     margin: 100;
 }
 
-#title {
-    text-align: center;
-    color: #6C4D52;
+.home-box {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    background-color:#C5CBC7;
+    height: auto;
+    margin: 5px;
+    padding: 40px 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
 }
 
+/*nav styles*/
 .top-buttons {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
-    padding: 2px;
-    margin: 10px;
-    padding-inline: 10px;
+    cursor: pointer;
+    align-items: center;
 }
 
 .top-buttons a {
     text-decoration: none;
+    color: black;
+    font-family: cursive;
+    font-size:25px;
+}
+
+#homebutton {
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+#gamebutton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 -2px 0 0 black;
+}
+
+#gamebutton {
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+#homebutton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 -2px 0 0 black;
+}
+
+#infobutton {
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+#infobutton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 -2px 0 0 black;
+}
+
+/*title styles*/
+#title {
+    text-align: center;
+    color: black;
+    font-size: 36px;
 }
