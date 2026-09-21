@@ -85,7 +85,7 @@ body {
     font-family: cursive;
     font-size: 20px;
     padding: 12px 30px;
-    border-radius: 30px;
+    border-radius: 10px;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     transition: background-color 0.2s ease;
@@ -121,6 +121,7 @@ body {
     background-color: transparent;
     border: none;
     transition-duration: 0.4s;
+    border-radius: 10px;
 }
 
 #gamebutton:hover {
@@ -132,6 +133,7 @@ body {
     background-color: transparent;
     border: none;
     transition-duration: 0.4s;
+    border-radius: 10px;
 }
 
 #homebutton:hover {
@@ -143,6 +145,7 @@ body {
     background-color: transparent;
     border: none;
     transition-duration: 0.4s;
+    border-radius: 10px;
 }
 
 #infobutton:hover {
