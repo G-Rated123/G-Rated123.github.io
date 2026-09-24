@@ -21,6 +21,13 @@ body {
     box-sizing: border-box;
 }
 
+/*title styles*/
+#title {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+}
+
 /*nav styles*/
 .top-buttons {
     display: flex;
@@ -40,6 +47,7 @@ body {
     background-color: transparent;
     border: none;
     transition-duration: 0.4s;
+    border-radius: 10px;
 }
 
 #gamebutton:hover {
@@ -51,6 +59,7 @@ body {
     background-color: transparent;
     border: none;
     transition-duration: 0.4s;
+    border-radius: 10px;
 }
 
 #homebutton:hover {
@@ -62,16 +71,10 @@ body {
     background-color: transparent;
     border: none;
     transition-duration: 0.4s;
+    border-radius: 10px;
 }
 
 #infobutton:hover {
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: inset 0 -2px 0 0 black;
-}
-
-/*title styles*/
-#title {
-    text-align: center;
-    color: black;
-    font-size: 36px;
 }

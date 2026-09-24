@@ -97,10 +97,21 @@ body {
 
 /*title styles*/
 #title {
-    text-align: center;
-    color: black;
-    font-size: 36px;
+    width: 300px;
+    margin: auto;
+    background: linear-gradient(to right, #004551, #004551 30%, #BF8000 30%, #BF8000 59.5%, #B11401 59.5%, #B11401 90%);
 }
+
+#title h2{
+    letter-spacing: 5px;
+    text-align: center;
+    color: #FBF4EF;
+    font-size: 35px;
+}
+
+
+
+
 
 /*nav styles*/
 .top-buttons {
