@@ -99,19 +99,29 @@ body {
 #title {
     width: 300px;
     margin: auto;
-    background: linear-gradient(to right, #004551, #004551 30%, #BF8000 30%, #BF8000 59.5%, #B11401 59.5%, #B11401 90%);
+    display: flex;
 }
 
-#title h2{
-    letter-spacing: 5px;
+#title span {
+    flex: 1;
     text-align: center;
-    color: #FBF4EF;
-    font-size: 35px;
+    padding: 10px 0;
+    color: white;
+    border-radius: 8px;
+    font-family: cursive;
 }
 
+.blue {
+    background-color: #004551; 
+}
 
+.red { 
+    background-color: #B11401; 
+}
 
-
+.yellow { 
+    background-color: #BF8000; 
+}
 
 /*nav styles*/
 .top-buttons {
