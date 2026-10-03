@@ -6,13 +6,6 @@ body {
 }
 
 .home-box {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 30px;
-
     background-color:#C5CBC7;
     height: auto;
     margin: 5px;
@@ -23,9 +16,22 @@ body {
 
 /*title styles*/
 #title {
+    width: 300px;
+    margin: auto;
+    background: linear-gradient(to right, #004551 0%, #004551 33.33%, #BF8000 33.33%, #BF8000 66.66%, #B11401 66.66%, #B11401 100%);
+    border-radius: 10px;
+}
+
+#title h2 {
+    letter-spacing: 5px;
     text-align: center;
-    color: black;
-    font-size: 36px;
+    color: #FBF4EF;
+    font-size: 35px;
+}
+
+#titleLink {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /*nav styles*/

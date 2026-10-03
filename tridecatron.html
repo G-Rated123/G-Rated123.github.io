@@ -8,20 +8,90 @@
 </head>
 <body>
     <nav>
+
+<!--header-->
+
         <div class="header">
-            <h2 id="title">TriDecaTron</h2>
-              <div class="top-buttons">
-                  <button id="homebutton"> <a href="index.html">Home</a> </button>
-                  <button id="gamebutton"> <a href="tridecatron.html">TriDecaTron</a> </button>
-                  <button id="infobutton"> <a href="info.html">Info</a> </button>
-              </div>
+
+            <!--title thing-->
+
+            <a id="titleLink" href="tridecatron.html">
+               <div id="title">
+                   <h2>TriDecaTron</h2>
+               </div>
+            </a>
+
+            <!--top buttons that lead to other pages-->
+
+            <div class="top-buttons">
+                <button id="homebutton"> <a href="index.html">Home</a> </button> 
+                <button id="gamebutton"> <a href="tridecatron.html">TriDecaTron</a> </button>
+                <button id="infobutton"> <a href="info.html">Info</a> </button>
+            </div>
+
         </div>
+
         <hr>
+
     </nav>
 
+<!--body box-->
+
     <div class="home-box">
+
+    <!--game box-->
+
+        <div class="game-box">
+
+            <!--scores and points tracker-->
+
+            <div class="scores">
+                <p>Tries left: 3</p>
+                <p>Correct: 0</p>
+            </div>
+
+            <!--box with the image to spell-->
+
+            <div class="image-div">
+                <h2>What is this image?</h2>
+                <p>Use the wheels to spell the word!</p>
+            </div>
+
+            <!--wheels with the letters-->
+
+            <div id="wheelOne">
+                <p>Wheel 1</p>
+                <button>▲</button>
+                <h1>B</h1>
+                <button>▼</button>
+            </div>
+
+            <div id="wheelTwo">
+                <p>Wheel 2</p>
+                <button>▲</button>
+                <h1>A</h1>
+                <button>▼</button>
+            </div>
+
+            <div id="wheelThree">
+                <p>Wheel 3</p>
+                <button>▲</button>
+                <h1>T</h1>
+                <button>▼</button>
+            </div>
+
+            <div class="bottom-buttons">
+                <p>When you're done, check your word!</p>
+                <button>Check</button>
+                <button>Reset</button>
+                <button>Finish</button>
+            </div>
+
+        </div>
+
     </div>
 
     <script src="tridecatron.js"></script>
+
 </body>
 </html
