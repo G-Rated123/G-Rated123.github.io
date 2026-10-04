@@ -14,25 +14,25 @@ body {
     box-sizing: border-box;
 }
 
-/*title styles*/
-#title {
-    width: 300px;
-    margin: auto;
-    background: linear-gradient(to right, #004551 0%, #004551 33.33%, #BF8000 33.33%, #BF8000 66.66%, #B11401 66.66%, #B11401 100%);
+/*game box styles*/
+.scoreBoard {
+    display: flex;
+    justify-content: space-around;
+    gap:20px
+}
+
+#triesLeft {
+    background-color: #FBF4EF;
+    padding: 0px 10px;
     border-radius: 10px;
 }
 
-#title h2 {
-    letter-spacing: 5px;
-    text-align: center;
-    color: #FBF4EF;
-    font-size: 35px;
+#score {
+    background-color: #FBF4EF;
+    padding: 0px 10px;
+    border-radius: 10px;
 }
 
-#titleLink {
-    text-decoration: none;
-    cursor: pointer;
-}
 
 /*nav styles*/
 .top-buttons {
@@ -83,4 +83,24 @@ body {
 #infobutton:hover {
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: inset 0 -2px 0 0 black;
+}
+
+/*title styles*/
+#title {
+    width: 300px;
+    margin: auto;
+    background: linear-gradient(to right, #004551 0%, #004551 33.33%, #BF8000 33.33%, #BF8000 66.66%, #B11401 66.66%, #B11401 100%);
+    border-radius: 10px;
+}
+
+#title h2 {
+    letter-spacing: 5px;
+    text-align: center;
+    color: #FBF4EF;
+    font-size: 35px;
+}
+
+#titleLink {
+    text-decoration: none;
+    cursor: pointer;
 }
