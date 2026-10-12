@@ -17,8 +17,8 @@ body {
 /*game box styles*/
 .scoreBoard {
     display: flex;
-    justify-content: space-around;
-    gap:20px
+    justify-content: center;
+    gap:80px
 }
 
 #triesLeft {
@@ -33,6 +33,83 @@ body {
     border-radius: 10px;
 }
 
+.image-div {
+    display:grid;
+    place-items: center;
+}
+
+/*wheel styles*/
+.letter-wheels {
+    display: flex;
+    justify-content: space-around;
+}
+
+.letter-wheels p {
+    color: black;
+    padding: 10px;
+}
+
+.letter-wheels h1 {
+    color: #FBF4EF;
+}
+
+.up-button {
+    width: 50px;
+    border-radius: 10px;
+}
+
+.down-button {
+    width: 50px;
+    border-radius: 10px;
+}
+
+#wheelOne {
+    display: grid;
+    background-color: #FBF4EF;
+    border-radius: 10px;
+    place-items: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+#wheelOne h1 {
+    background-color: #004551;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#wheelTwo {
+    display: grid;
+    background-color: #FBF4EF;
+    border-radius: 10px;
+    place-items: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+#wheelTwo h1 {
+    background-color: #BF8000;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#wheelThree {
+    display: grid;
+    background-color: #FBF4EF;
+    border-radius: 10px;
+    place-items: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+#wheelThree h1 {
+    background-color: #B11401;
+    padding: 50px;
+    border-radius: 10px;
+}
 
 /*nav styles*/
 .top-buttons {
