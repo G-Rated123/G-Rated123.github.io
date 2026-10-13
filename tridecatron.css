@@ -41,7 +41,7 @@ body {
 /*wheel styles*/
 .letter-wheels {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .letter-wheels p {
