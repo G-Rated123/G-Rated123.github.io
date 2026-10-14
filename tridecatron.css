@@ -42,6 +42,7 @@ body {
 .letter-wheels {
     display: flex;
     justify-content: center;
+    gap: 30px
 }
 
 .letter-wheels p {
