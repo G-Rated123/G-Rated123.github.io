@@ -15,101 +15,170 @@ body {
 }
 
 /*game box styles*/
+.game-box h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.game-box p {
+    text-align: center;
+}
+
 .scoreBoard {
     display: flex;
     justify-content: center;
-    gap:80px
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
 }
 
 #triesLeft {
     background-color: #FBF4EF;
-    padding: 0px 10px;
+    padding: 5px 20px;
     border-radius: 10px;
 }
 
 #score {
     background-color: #FBF4EF;
-    padding: 0px 10px;
+    padding: 5px 20px;
     border-radius: 10px;
 }
 
 .image-div {
-    display:grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image-div h2 {
+    font-size: 28px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBF4EF;
+    width: 180px;
+    height: 140px;
+    border-radius: 10px;
+    font-size: 65px;
+}
+
+.bottom-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bottom-buttons p {
+    margin-bottom: 15px;
+}
+
+.bottom-buttons button {
+    padding: 11px 22px;
+    border: none;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 15px;
+    cursor: pointer;
+    background: #FBF4EF;
 }
 
 /*wheel styles*/
 .letter-wheels {
     display: flex;
     justify-content: center;
-    gap: 30px
+    align-items: stretch;
+    gap: 22px
 }
 
 .letter-wheels p {
+    font-size: 14px;
     color: black;
-    padding: 10px;
+    margin: 8px 0 15px;
 }
 
 .letter-wheels h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 130px;
+    margin: 10px 0;
     color: #FBF4EF;
+    font-size: 65px;
+    border-radius: 12px;
 }
 
 .up-button {
-    width: 50px;
-    border-radius: 10px;
+    width: 42px;
+    height: 42px;
+    border-radius: 100px;
+    background: #FBF4EF;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
 }
 
 .down-button {
-    width: 50px;
-    border-radius: 10px;
+    width: 42px;
+    height: 42px;
+    border-radius: 100px;
+    background: #FBF4EF;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
 }
 
+/*wheelone*/
 #wheelOne {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background-color: #FBF4EF;
     border-radius: 10px;
-    place-items: center;
-    padding: 10px;
-    padding-bottom: 20px;
-    padding-top: 0px;
+    padding: 12px;
+    width: 125px;
 }
 
 #wheelOne h1 {
     background-color: #004551;
-    padding: 50px;
-    border-radius: 10px;
 }
 
+/*wheeltwo*/
 #wheelTwo {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background-color: #FBF4EF;
     border-radius: 10px;
-    place-items: center;
-    padding: 10px;
-    padding-bottom: 20px;
-    padding-top: 0px;
+    padding: 12px;
+    width: 125px;
 }
 
 #wheelTwo h1 {
     background-color: #BF8000;
-    padding: 50px;
-    border-radius: 10px;
 }
 
+/*wheelthree*/
 #wheelThree {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background-color: #FBF4EF;
     border-radius: 10px;
-    place-items: center;
-    padding: 10px;
-    padding-bottom: 20px;
-    padding-top: 0px;
+    padding: 12px;
+    width: 125px;
 }
 
 #wheelThree h1 {
     background-color: #B11401;
-    padding: 50px;
-    border-radius: 10px;
 }
 
 /*nav styles*/
