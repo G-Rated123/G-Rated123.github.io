@@ -18,7 +18,6 @@ body {
 .game-box h2 {
     text-align: center;
     font-size: 26px;
-    margin-bottom: 10px;
 }
 
 .game-box p {
@@ -30,7 +29,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin-bottom: 30px;
 }
 
 #triesLeft {
@@ -70,10 +68,6 @@ body {
 .bottom-buttons {
     margin-top: 20px;
     text-align: center;
-}
-
-.bottom-buttons p {
-    margin-bottom: 15px;
 }
 
 .bottom-buttons button {
