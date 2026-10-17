@@ -15,6 +15,7 @@ body {
 }
 
 /*game box styles*/
+
 .game-box h2 {
     text-align: center;
     font-size: 26px;
@@ -47,11 +48,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 }
 
 .image-div h2 {
     font-size: 28px;
+    margin: 0 0 5px;
+}
+
+#instruction {
+    margin: 12px;
 }
 
 #image {
@@ -63,6 +68,7 @@ body {
     height: 140px;
     border-radius: 10px;
     font-size: 65px;
+    margin: 0 auto 15px;
 }
 
 .bottom-buttons {
@@ -84,14 +90,9 @@ body {
 .letter-wheels {
     display: flex;
     justify-content: center;
-    align-items: stretch;
-    gap: 22px
-}
-
-.letter-wheels p {
-    font-size: 14px;
-    color: black;
-    margin: 8px 0 15px;
+    align-items: flex-start;
+    gap: 22px;
+    margin: 15px auto 20px;
 }
 
 .letter-wheels h1 {
@@ -127,11 +128,10 @@ body {
     font-size: 17px;
 }
 
-/*wheelone*/
-#wheelOne {
+#wheelOne, #wheelTwo, #wheelThree {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     background-color: #FBF4EF;
     border-radius: 10px;
@@ -143,32 +143,8 @@ body {
     background-color: #004551;
 }
 
-/*wheeltwo*/
-#wheelTwo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FBF4EF;
-    border-radius: 10px;
-    padding: 12px;
-    width: 125px;
-}
-
 #wheelTwo h1 {
     background-color: #BF8000;
-}
-
-/*wheelthree*/
-#wheelThree {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FBF4EF;
-    border-radius: 10px;
-    padding: 12px;
-    width: 125px;
 }
 
 #wheelThree h1 {
