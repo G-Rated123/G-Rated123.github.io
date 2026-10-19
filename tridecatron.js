@@ -1,9 +1,9 @@
-let lettersWheel1 = ['b', 'p', 'm', 'f', 's', 't', 'h', 'w', 'c', 'n']
+//making my wheels into a variable
+const wheels = document.querySelectorAll(".letter-wheels > div")
 
-let lettersWheel2 = ['a', 'o', 'u', 'i', 'e', 'ea', 'oo', 'ee', 'ai', 'ou']
-
-let letterWheel3 = ['t', 'll', 'n', 'd', 'r', 'g', 'nd', 'm', 'ng', 'w']
-
-function changeLetter {
-    
+//making the variables for the buttons and letters
+wheels.forEach((wheel) => {
+    const letterOptions = wheel.dataset.options.split(",");
+    const upButton = wheel.querySelector(".up-button");
+    const downButton = wheel.querySelector(".down-button")
 }
