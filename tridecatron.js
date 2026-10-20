@@ -49,3 +49,47 @@ const rightWrong = document.querySelector("#rightWrong");
 const image = document.querySelector("#image");
 
 //putting the words and emojis into actual questions
+const hints = [
+    { word: "ball", hint: "⚽"},
+    { word: "pig", hint: "🐷"},
+    { word: "bat", hint: "🦇"},
+    { word: "boot", hint: "👢"},
+    { word: "pear", hint: "🍐"},
+    { word: "hair", hint: "💇🏼‍♀️"},
+    { word: "fan", hint: "🪭"},
+    { word: "pan", hint: "🍳"},
+    { word: "moon", hint: "🌕"},
+    { word: "sun", hint: "☀️"},
+    { word: "hat", hint: "🧢"},
+    { word: "cat", hint: "😺"},
+    { word: "pin", hint: "📌"}
+];
+
+let currentHint = 0;
+
+image.textContent = hints[currentHint].hint;
+
+check.addEventListener("click", () => {
+    let answer = "";
+
+    wheels.forEach((wheel) => {
+        answer += wheel.querySelector("h1").textContent;
+    });
+
+    const rightAnswer = hints[currentHint].word;
+
+    if (answer === rightAnswer) {
+        rightWrong.textContent = "Correct!";
+
+        currentHint++;
+
+        if (currentHint >= hints.length) {
+            currentHint = 0;
+    } 
+    
+    image.textContent = hints[currentHint].hint;
+    } else {
+        rightWrong.textContent = "Not quite, the correct spelling was " + rightAnswer;
+    }
+    
+});
