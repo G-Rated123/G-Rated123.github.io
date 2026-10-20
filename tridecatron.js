@@ -16,6 +16,7 @@ wheels.forEach((wheel) => {
         letterShowing.textContent = letterOptions[currentLetter];
     }
 
+    //making the up buttons function
     const goBackward = () => {
         if (currentLetter > 0) {
             currentLetter--;
@@ -26,6 +27,7 @@ wheels.forEach((wheel) => {
         letterShowing.textContent = letterOptions[currentLetter];
     };
 
+    //making the down buttons function
     const goForward = () => {
         if (currentLetter < letterOptions.length - 1) {
             currentLetter++;
@@ -36,6 +38,14 @@ wheels.forEach((wheel) => {
         letterShowing.textContent = letterOptions[currentLetter];
     };
 
+    //assigning the up and down functions to the buttons
     upButton.addEventListener("click", goBackward);
     downButton.addEventListener("click", goForward)
 });
+
+//making a variable for the check button thing
+const check = document.querySelector("#check");
+const rightWrong = document.querySelector("#rightWrong");
+const image = document.querySelector("#image");
+
+//putting the words and emojis into actual questions
