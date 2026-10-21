@@ -70,12 +70,12 @@ body {
     margin: 0 auto 15px;
 }
 
-.bottom-buttons {
+.bottom-button {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.bottom-buttons button {
+.bottom-button button {
     padding: 11px 22px;
     border: none;
     border-radius: 10px;

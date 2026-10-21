@@ -48,7 +48,7 @@ const check = document.querySelector("#check");
 const rightWrong = document.querySelector("#rightWrong");
 const image = document.querySelector("#image");
 
-//putting the words and emojis into actual questions
+//putting the words and emojis into actual questions/hints
 const hints = [
     { word: "ball", hint: "⚽"},
     { word: "pig", hint: "🐷"},
