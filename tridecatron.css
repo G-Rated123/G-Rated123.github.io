@@ -1,7 +1,7 @@
 /*body styles*/
 body {
     background: #FBF4EF;
-    font-family:cursive;
+    font-family:"Comic Sans MS", "Comic Sans", cursive, sans-serif;
     margin: 100;
 }
 
@@ -79,7 +79,7 @@ body {
     padding: 11px 22px;
     border: none;
     border-radius: 10px;
-    font-family: cursive;
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
     font-size: 15px;
     cursor: pointer;
     background: #FBF4EF;
@@ -161,7 +161,7 @@ body {
 .top-buttons a {
     text-decoration: none;
     color: black;
-    font-family: cursive;
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
     font-size:25px;
 }
 
