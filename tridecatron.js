@@ -51,17 +51,17 @@ const image = document.querySelector("#image");
 //putting the words and emojis into actual questions/hints
 const hints = [
     { word: "ball", hint: "⚽"},
+    { word: "sun", hint: "☀️"},
+    { word: "hat", hint: "👒"},
     { word: "pig", hint: "🐷"},
     { word: "bat", hint: "🦇"},
-    { word: "boot", hint: "👢"},
     { word: "pear", hint: "🍐"},
-    { word: "hair", hint: "💇🏼‍♀️"},
+    { word: "cut", hint: "💇🏼‍♀️"},
     { word: "fan", hint: "🪭"},
+    { word: "boot", hint: "👢"},
     { word: "pan", hint: "🍳"},
-    { word: "moon", hint: "🌕"},
-    { word: "sun", hint: "☀️"},
-    { word: "hat", hint: "🧢"},
     { word: "cat", hint: "😺"},
+    { word: "moon", hint: "🌕"},
     { word: "pin", hint: "📌"}
 ];
 
