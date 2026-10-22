@@ -84,6 +84,7 @@ check.addEventListener("click", () => {
         currentHint++;
 
         if (currentHint >= hints.length) {
+            popup.style.display = "block";
             currentHint = 0;
     } 
     
@@ -92,4 +93,11 @@ check.addEventListener("click", () => {
         rightWrong.textContent = "Not quite, the correct spelling was " + rightAnswer;
     }
     
+});
+
+const popup = document.querySelector("#endPopup");
+const closePopup = document.querySelector("#close");
+
+closePopup.addEventListener("click", () => {
+    popup.style.display = "none";
 });
