@@ -247,3 +247,28 @@ body {
     cursor: pointer;
 }
 
+.up-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.up-button {
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+.down-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.down-button {
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+#check:hover {
+    background-color: #eae6e0;
+}
