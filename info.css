@@ -2,23 +2,51 @@
 body {
     background: #FBF4EF;
     font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
-    margin: 100;
+    margin: 0;
 }
 
-.home-box {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 30px;
-
+.info-box {
     background-color:#C5CBC7;
     height: auto;
     margin: 5px;
     padding: 40px 60px;
     border-radius: 50px;
     box-sizing: border-box;
+    }
+
+#infoText {
+    margin: auto;
+}
+
+#infoText h2 , h3{
+    color: #004551;
+}
+
+#infoText h2 {
+    font-size: 30px;
+}
+
+#infoText h3 {
+    font-size: 21px;
+    margin-top: 25px;
+}
+
+#playButton {
+    display: inline-block;
+    background-color: #FBF4EF;
+    color: black;
+    text-decoration: none;
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    font-size: 20px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.2s ease;
+}
+
+#hometext ul li a:hover {
+    background-color: #eae6e0;
 }
 
 /*title styles*/
